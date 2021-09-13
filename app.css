@@ -1,0 +1,40 @@
+#board {
+    padding-top: 3em;
+    text-align: center;
+}
+.row>div {
+float: left;
+height: 100px;
+width: 100px;
+cursor: pointer;
+font-size: 4rem;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.row {
+    clear: both;
+    margin:0 auto;
+    width: 302px;
+}
+.top {
+    border-bottom: 1px rgb(0, 0, 0) solid;
+}
+.bottom {
+    border-top: 1px rgb(0, 0, 0) solid;
+}
+.left {
+    border-right: 1px rgb(0, 0, 0) solid;
+}
+.right {
+    border-left: 1px rgb(0, 0, 0) solid;
+}
+.button {
+position: absolute;
+right: 250px;
+color:black;
+background-color: gold;
+}
+body {
+    background-color: purple;
+}
